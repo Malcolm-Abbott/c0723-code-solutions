@@ -10,7 +10,7 @@ A number data type is returned.
 
 - What is string concatenation?
 
-It is joining multiple strings together with the addition operator.
+It is joining multiple strings together using the addition operator.
 
 - What purpose(s) does the `+` plus operator serve in JavaScript?
 
