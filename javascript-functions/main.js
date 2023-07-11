@@ -5,13 +5,13 @@ function convertMinutesToSeconds(minutes) {
 console.log('the value of convertMinutesToSeconds(3) in seconds: ', convertMinutesToSeconds(3));
 
 function greet(name) {
-    greeting = `Hello, ${name}. It is great to see you!`;
+    const greeting = `Hello, ${name}. It is great to see you!`;
     return greeting;
 }
 console.log('the value of the function greet(\'Malcolm\'): ', greet('Malcolm'));
 
 function getArea(width, height) {
-    area = width * height;
+    const area = width * height;
     return area;
 }
 console.log('the value of getArea(5, 7): The Area is==>', getArea(5, 7));
