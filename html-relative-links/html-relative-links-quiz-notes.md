@@ -6,11 +6,27 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - How do you indicate the relative link to a parent directory?
 
+using ../
+
+```html
+<img src="../images/picture.jpg" />
+```
+
 - How do you indicate the relative link to a child directory?
+
+/folderName
+
+```html
+<img src="/projects/finalProject.jpg" />
+```
 
 - How do you indicate the relative link to a grand parent directory?
 
+../../file.html
+
 - How do you indicate the relative link to the same directory?
+
+just the file name
 
 ## Notes
 
