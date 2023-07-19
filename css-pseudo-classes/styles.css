@@ -1,0 +1,21 @@
+button {
+  box-sizing: border-box;
+  min-height: 50px;
+  min-width: 220px;
+  font-size: 2rem;
+  padding: 10px 20px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(159, 159, 162, 0.8);
+}
+
+thead > tr > th {
+  color: #ffff;
+  background-color: black;
+}
