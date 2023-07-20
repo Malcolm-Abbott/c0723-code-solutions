@@ -6,7 +6,11 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - Name two types of units that can be used to adjust `font-size` in CSS.
 
+em | rem | px
+
 - What CSS property controls the font used for the text inside an element?
+
+font-family
 
 ## Notes
 
