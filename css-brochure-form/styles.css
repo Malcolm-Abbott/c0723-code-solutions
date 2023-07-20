@@ -1,0 +1,67 @@
+html {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(236, 93, 87);
+  text-transform: uppercase;
+}
+
+label {
+  font-weight: bold;
+  font-size: 0.7rem;
+  line-height: 1.9;
+  margin-left: 10px;
+}
+
+input {
+  margin-bottom: 12px;
+}
+
+label,
+input {
+  display: block;
+}
+
+input,
+select {
+  min-width: 400px;
+  min-height: 40px;
+  border-radius: 6px;
+  border: 1px solid rgb(196, 199, 198);
+  padding-left: 10px;
+}
+
+select {
+  background-color: rgb(243, 243, 243);
+}
+
+input::placeholder {
+  color: rgb(196, 199, 198);
+  margin-left: 10px;
+}
+
+.button-1 {
+  text-align: right;
+  margin-top: 7px;
+}
+
+button {
+  border: 1px solid rgb(236, 93, 87);
+  border-radius: 15px;
+  min-height: 30px;
+  min-width: 84px;
+  background-color: rgb(236, 93, 87);
+  color: #ffff;
+}
+
+h2,
+label,
+button {
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
