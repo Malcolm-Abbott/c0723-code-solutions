@@ -3,10 +3,11 @@ h1 {
 }
 
 h2 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Inter', sans-serif;
   font-weight: lighter;
 }
 
 body {
+  font-family: 'Merriweather', serif;
   line-height: 1.6;
 }
