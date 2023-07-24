@@ -1,0 +1,70 @@
+body {
+  margin-top: 1rem;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  font-family: Karla, serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.gstatic.com/s/karla/v7/qkBbXvYC6trAT7RVLtyU5rZP.woff2')
+    format('woff2');
+  unicode-range: u+0000-00ff, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da,
+    u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215,
+    u+feff, u+fffd;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.column-full {
+  text-align: center;
+  padding: 2.1rem;
+}
+
+.column-full h1 {
+  font-size: 3.7rem;
+  line-height: 0.7;
+}
+
+.column-full p {
+  margin: 0 auto;
+  max-width: 59%;
+  line-height: 1.8;
+}
+
+.column-half {
+  flex-basis: 42%;
+  padding: 2.1rem;
+}
+
+.column-half img {
+  float: left;
+  width: 7rem;
+  height: 60%;
+}
+
+.column-half h3 {
+  line-height: 0.4;
+}
+
+.column-half p {
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+  max-width: 59%;
+}
+
+.column-full button {
+  border: 1.5px solid rgb(209, 77, 70);
+  width: 200px;
+  height: 35px;
+  background-color: #ffff;
+  color: rgb(209, 77, 70);
+  font-weight: bold;
+}
