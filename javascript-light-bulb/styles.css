@@ -1,0 +1,36 @@
+.night-time {
+  background-color: rgb(17, 17, 17);
+}
+
+.day-time {
+  background-color: rgb(254, 249, 241);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.col-only {
+  flex-basis: 15%;
+  height: 28%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.night {
+  background-color: rgb(37, 37, 37);
+  border: 1px solid rgb(37, 37, 37);
+  border-radius: 50%;
+  box-shadow: 0 -0.5rem 0 0.4rem rgb(12, 12, 12);
+}
+
+.day {
+  background-color: rgb(250, 234, 132);
+  border: 1px solid rgb(250, 234, 132);
+  border-radius: 50%;
+  box-shadow: 0 0 0.5rem 0.5rem rgba(254, 245, 211, 0.7);
+}
