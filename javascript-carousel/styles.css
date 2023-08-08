@@ -1,0 +1,28 @@
+.fa-solid {
+  color: rgb(0, 0, 0);
+}
+
+.carousel-container {
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.col-third {
+  flex-basis: calc(100% / 3);
+  border: 1px solid hotpink;
+}
+
+.center-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.col-fifth {
+  flex-basis: 20%;
+}
