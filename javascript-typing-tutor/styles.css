@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.go {
+  border-bottom: none;
+  color: rgb(24, 205, 27);
+}
+
+.stop {
+  color: rgb(248, 6, 6);
+}
+
+.current {
+  border-bottom: 1px solid black;
+  padding-bottom: 0.25rem;
+}
